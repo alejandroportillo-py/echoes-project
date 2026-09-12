@@ -7,15 +7,15 @@
    ============================================================ */
 
 const TEAM_MEMBERS = [
-  { name: '[TEAM MEMBER NAME]', country: '[COUNTRY]', role: '[ROLE]', photo: '../Assets/Images/Team/member-01.jpg' },
-  { name: '[TEAM MEMBER NAME]', country: '[COUNTRY]', role: '[ROLE]', photo: '../Assets/Images/Team/member-02.jpg' },
-  { name: '[TEAM MEMBER NAME]', country: '[COUNTRY]', role: '[ROLE]', photo: '../Assets/Images/Team/member-03.jpg' },
-  { name: '[TEAM MEMBER NAME]', country: '[COUNTRY]', role: '[ROLE]', photo: '../Assets/Images/Team/member-04.jpg' },
-  { name: '[TEAM MEMBER NAME]', country: '[COUNTRY]', role: '[ROLE]', photo: '../Assets/Images/Team/member-05.jpg' },
-  { name: '[TEAM MEMBER NAME]', country: '[COUNTRY]', role: '[ROLE]', photo: '../Assets/Images/Team/member-06.jpg' },
-  { name: '[TEAM MEMBER NAME]', country: '[COUNTRY]', role: '[ROLE]', photo: '../Assets/Images/Team/member-07.jpg' },
-  { name: '[TEAM MEMBER NAME]', country: '[COUNTRY]', role: '[ROLE]', photo: '../Assets/Images/Team/member-08.jpg' },
-  { name: '[TEAM MEMBER NAME]', country: '[COUNTRY]', role: '[ROLE]', photo: '../Assets/Images/Team/member-09.jpg' },
+  { name: '[TEAM MEMBER NAME]', country: '[COUNTRY]', role: '[ROLE]', photo: 'Assets/Images/Team/member-01.jpg' },
+  { name: '[TEAM MEMBER NAME]', country: '[COUNTRY]', role: '[ROLE]', photo: 'Assets/Images/Team/member-02.jpg' },
+  { name: '[TEAM MEMBER NAME]', country: '[COUNTRY]', role: '[ROLE]', photo: 'Assets/Images/Team/member-03.jpg' },
+  { name: '[TEAM MEMBER NAME]', country: '[COUNTRY]', role: '[ROLE]', photo: 'Assets/Images/Team/member-04.jpg' },
+  { name: '[TEAM MEMBER NAME]', country: '[COUNTRY]', role: '[ROLE]', photo: 'Assets/Images/Team/member-05.jpg' },
+  { name: '[TEAM MEMBER NAME]', country: '[COUNTRY]', role: '[ROLE]', photo: 'Assets/Images/Team/member-06.jpg' },
+  { name: '[TEAM MEMBER NAME]', country: '[COUNTRY]', role: '[ROLE]', photo: 'Assets/Images/Team/member-07.jpg' },
+  { name: '[TEAM MEMBER NAME]', country: '[COUNTRY]', role: '[ROLE]', photo: 'Assets/Images/Team/member-08.jpg' },
+  { name: '[TEAM MEMBER NAME]', country: '[COUNTRY]', role: '[ROLE]', photo: 'Assets/Images/Team/member-09.jpg' },
 ];
 
 function renderTeam() {

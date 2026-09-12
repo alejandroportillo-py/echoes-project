@@ -25,41 +25,41 @@ const PLACES = ['Dorms', 'Classrooms', 'Cafeteria', 'Gardens', 'Sports', 'Common
 
 const MEMORIAL_ITEMS = [
   // PEOPLE
-  { category: 'people', title: '[Alumni Name]', meta: 'Class of [YEAR]', desc: '[Add testimonial or short story about this person.]', image: '../Assets/Images/Memorial/people-01.jpg' },
-  { category: 'people', title: '[Staff Member Name]', meta: '[Role at UWC]', desc: '[Add memory or reflection.]', image: '../Assets/Images/Memorial/people-02.jpg' },
-  { category: 'people', title: '[Alumni Name]', meta: 'Class of [YEAR]', desc: '[Add testimonial or short story about this person.]', image: '../Assets/Images/Memorial/people-03.jpg' },
+  { category: 'people', title: '[Alumni Name]', meta: 'Class of [YEAR]', desc: '[Add testimonial or short story about this person.]', image: 'Assets/Images/Memorial/people-01.jpg' },
+  { category: 'people', title: '[Staff Member Name]', meta: '[Role at UWC]', desc: '[Add memory or reflection.]', image: 'Assets/Images/Memorial/people-02.jpg' },
+  { category: 'people', title: '[Alumni Name]', meta: 'Class of [YEAR]', desc: '[Add testimonial or short story about this person.]', image: 'Assets/Images/Memorial/people-03.jpg' },
 
   // PLACES
-  { category: 'places', place: 'Dorms', title: '[Dorm Name]', meta: 'Dorms', desc: '[Add story about this dorm.]', image: '../Assets/Images/Memorial/places-01.jpg' },
-  { category: 'places', place: 'Classrooms', title: '[Classroom / Building]', meta: 'Classrooms', desc: '[Add memory about this classroom.]', image: '../Assets/Images/Memorial/places-02.jpg' },
-  { category: 'places', place: 'Cafeteria', title: '[The Cafeteria]', meta: 'Cafeteria', desc: '[Add memory about the cafeteria.]', image: '../Assets/Images/Memorial/places-03.jpg' },
-  { category: 'places', place: 'Gardens', title: '[The Gardens]', meta: 'Gardens', desc: '[Add memory about the gardens.]', image: '../Assets/Images/Memorial/places-04.jpg' },
-  { category: 'places', place: 'Sports', title: '[Sports Field]', meta: 'Sports', desc: '[Add memory about the sports area.]', image: '../Assets/Images/Memorial/places-05.jpg' },
-  { category: 'places', place: 'Common Areas', title: '[Common Room]', meta: 'Common Areas', desc: '[Add memory about this common area.]', image: '../Assets/Images/Memorial/places-06.jpg' },
+  { category: 'places', place: 'Dorms', title: '[Dorm Name]', meta: 'Dorms', desc: '[Add story about this dorm.]', image: 'Assets/Images/Memorial/places-01.jpg' },
+  { category: 'places', place: 'Classrooms', title: '[Classroom / Building]', meta: 'Classrooms', desc: '[Add memory about this classroom.]', image: 'Assets/Images/Memorial/places-02.jpg' },
+  { category: 'places', place: 'Cafeteria', title: '[The Cafeteria]', meta: 'Cafeteria', desc: '[Add memory about the cafeteria.]', image: 'Assets/Images/Memorial/places-03.jpg' },
+  { category: 'places', place: 'Gardens', title: '[The Gardens]', meta: 'Gardens', desc: '[Add memory about the gardens.]', image: 'Assets/Images/Memorial/places-04.jpg' },
+  { category: 'places', place: 'Sports', title: '[Sports Field]', meta: 'Sports', desc: '[Add memory about the sports area.]', image: 'Assets/Images/Memorial/places-05.jpg' },
+  { category: 'places', place: 'Common Areas', title: '[Common Room]', meta: 'Common Areas', desc: '[Add memory about this common area.]', image: 'Assets/Images/Memorial/places-06.jpg' },
 
   // EVENTS
-  { category: 'events', title: '[Event Name]', meta: '[Add date]', desc: '[Add description of this event.]', image: '../Assets/Images/Memorial/events-01.jpg' },
-  { category: 'events', title: '[Event Name]', meta: '[Add date]', desc: '[Add description of this event.]', image: '../Assets/Images/Memorial/events-02.jpg' },
+  { category: 'events', title: '[Event Name]', meta: '[Add date]', desc: '[Add description of this event.]', image: 'Assets/Images/Memorial/events-01.jpg' },
+  { category: 'events', title: '[Event Name]', meta: '[Add date]', desc: '[Add description of this event.]', image: 'Assets/Images/Memorial/events-02.jpg' },
 
   // TRADITIONS
-  { category: 'traditions', title: '[Tradition Name]', meta: '[Since year, if known]', desc: '[Add description of this tradition.]', image: '../Assets/Images/Memorial/traditions-01.jpg' },
-  { category: 'traditions', title: '[Tradition Name]', meta: '[Since year, if known]', desc: '[Add description of this tradition.]', image: '../Assets/Images/Memorial/traditions-02.jpg' },
+  { category: 'traditions', title: '[Tradition Name]', meta: '[Since year, if known]', desc: '[Add description of this tradition.]', image: 'Assets/Images/Memorial/traditions-01.jpg' },
+  { category: 'traditions', title: '[Tradition Name]', meta: '[Since year, if known]', desc: '[Add description of this tradition.]', image: 'Assets/Images/Memorial/traditions-02.jpg' },
 
   // ART
-  { category: 'art', title: '[Artwork / Mural Title]', meta: '[Artist or class year]', desc: '[Add description of this artwork.]', image: '../Assets/Images/Memorial/art-01.jpg' },
-  { category: 'art', title: '[Artwork / Mural Title]', meta: '[Artist or class year]', desc: '[Add description of this artwork.]', image: '../Assets/Images/Memorial/art-02.jpg' },
+  { category: 'art', title: '[Artwork / Mural Title]', meta: '[Artist or class year]', desc: '[Add description of this artwork.]', image: 'Assets/Images/Memorial/art-01.jpg' },
+  { category: 'art', title: '[Artwork / Mural Title]', meta: '[Artist or class year]', desc: '[Add description of this artwork.]', image: 'Assets/Images/Memorial/art-02.jpg' },
 
   // CULTURE
-  { category: 'culture', title: '[Cultural Moment]', meta: '[Add context]', desc: '[Add description of this cultural moment.]', image: '../Assets/Images/Memorial/culture-01.jpg' },
-  { category: 'culture', title: '[Cultural Moment]', meta: '[Add context]', desc: '[Add description of this cultural moment.]', image: '../Assets/Images/Memorial/culture-02.jpg' },
+  { category: 'culture', title: '[Cultural Moment]', meta: '[Add context]', desc: '[Add description of this cultural moment.]', image: 'Assets/Images/Memorial/culture-01.jpg' },
+  { category: 'culture', title: '[Cultural Moment]', meta: '[Add context]', desc: '[Add description of this cultural moment.]', image: 'Assets/Images/Memorial/culture-02.jpg' },
 
   // COMMUNITY
-  { category: 'community', title: '[Community Moment]', meta: '[Add context]', desc: '[Add description of this moment.]', image: '../Assets/Images/Memorial/community-01.jpg' },
-  { category: 'community', title: '[Community Moment]', meta: '[Add context]', desc: '[Add description of this moment.]', image: '../Assets/Images/Memorial/community-02.jpg' },
+  { category: 'community', title: '[Community Moment]', meta: '[Add context]', desc: '[Add description of this moment.]', image: 'Assets/Images/Memorial/community-01.jpg' },
+  { category: 'community', title: '[Community Moment]', meta: '[Add context]', desc: '[Add description of this moment.]', image: 'Assets/Images/Memorial/community-02.jpg' },
 
   // STUDENT LIFE
-  { category: 'student-life', title: '[Student Life Moment]', meta: '[Add context]', desc: '[Add description of this moment.]', image: '../Assets/Images/Memorial/student-life-01.jpg' },
-  { category: 'student-life', title: '[Student Life Moment]', meta: '[Add context]', desc: '[Add description of this moment.]', image: '../Assets/Images/Memorial/student-life-02.jpg' },
+  { category: 'student-life', title: '[Student Life Moment]', meta: '[Add context]', desc: '[Add description of this moment.]', image: 'Assets/Images/Memorial/student-life-01.jpg' },
+  { category: 'student-life', title: '[Student Life Moment]', meta: '[Add context]', desc: '[Add description of this moment.]', image: 'Assets/Images/Memorial/student-life-02.jpg' },
 ];
 
 let activeCategory = 'people';
